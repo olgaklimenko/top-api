@@ -2,7 +2,7 @@ export enum TopLevelCategory {
 	Cources,
 	Services,
 	Books,
-	Products
+	Products,
 }
 
 export class TopPageModel {

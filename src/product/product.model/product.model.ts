@@ -12,5 +12,5 @@ export class ProductModel {
 	tags: string[];
 	characteristics: {
 		[key: string]: string;
-	}
+	};
 }
