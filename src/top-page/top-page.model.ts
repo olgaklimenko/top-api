@@ -16,11 +16,11 @@ export class TopPageModel {
 		middleSalary: number;
 		seniorSalary: number;
 	};
-	advantages: {
+	advantages: Array<{
 		title: string;
 		description: string;
-	}[];
+	}>;
 	seoTest: string;
 	tagsTitle: string;
-	tags: string[];
+	tags: Array<string>;
 }

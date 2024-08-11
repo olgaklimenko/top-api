@@ -9,8 +9,8 @@ export class ProductModel {
 	description: string;
 	advantages: string;
 	disAdvantages: string;
-	categories: string[];
-	tags: string[];
+	categories: Array<string>;
+	tags: Array<string>;
 	characteristics: {
 		[key: string]: string;
 	};
